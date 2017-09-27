@@ -1,3 +1,10 @@
+const Promise = require('bluebird');
+Promise.resolve().then(() => {
+   const func= function() {
+       return 2**2;
+   };
+   console.log(func.toString(),func());
+});
 Ext.require('Ext.ux.app.RoutedApplication', function () {
     App = Ext.create('Ext.ux.app.RoutedApplication', {
 
