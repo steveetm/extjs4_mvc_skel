@@ -1,7 +1,15 @@
-Large ExtJS4 MVC application skeleton
+Large ExtJS4 MVC application skeleton with Webpack
 ===
 
 This is an ExtJS 4 MVC application skeleton.
+
+How to use
+--
+`npm install` to install all dependency
+
+`npm run watch` to start a webpack-dev-server with hot reloading
+
+`npm run build` to build app into ./dist
 
 
 
